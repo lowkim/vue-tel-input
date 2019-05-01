@@ -9,5 +9,6 @@ Vue.component('vue-tel-input', VueTelInput);
 
 Vue.config.productionTip = false;
 
+
 /* eslint-disable no-new */
 new Vue({ ...App }).$mount('#app');

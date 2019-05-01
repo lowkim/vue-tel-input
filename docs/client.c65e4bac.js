@@ -20,7 +20,7 @@ webpackJsonp([1],{
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_babelrc_false_presets_Users_stevend_coding_vue_vue_tel_input_node_modules_babel_preset_poi_index_js_jsx_vue_cacheDirectory_true_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(/*! !babel-loader?{"babelrc":false,"presets":[["/Users/stevend/coding/vue/vue-tel-input/node_modules/babel-preset-poi/index.js",{"jsx":"vue"}]],"cacheDirectory":true}!../node_modules/vue-loader/lib/selector?type=script&index=0!./App.vue */ 45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_babelrc_false_presets_home_potatoman_Desktop_vue_tel_input_node_modules_babel_preset_poi_index_js_jsx_vue_cacheDirectory_true_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__ = __webpack_require__(/*! !babel-loader?{"babelrc":false,"presets":[["/home/potatoman/Desktop/vue-tel-input/node_modules/babel-preset-poi/index.js",{"jsx":"vue"}]],"cacheDirectory":true}!../node_modules/vue-loader/lib/selector?type=script&index=0!./App.vue */ 45);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_652e1d43_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__ = __webpack_require__(/*! !../node_modules/vue-loader/lib/template-compiler/index?{"id":"data-v-652e1d43","hasScoped":false,"buble":{"transforms":{}}}!../node_modules/vue-loader/lib/selector?type=template&index=0!./App.vue */ 104);
 var normalizeComponent = __webpack_require__(/*! ../node_modules/vue-loader/lib/component-normalizer */ 103)
@@ -38,7 +38,7 @@ var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_babelrc_false_presets_Users_stevend_coding_vue_vue_tel_input_node_modules_babel_preset_poi_index_js_jsx_vue_cacheDirectory_true_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_babelrc_false_presets_home_potatoman_Desktop_vue_tel_input_node_modules_babel_preset_poi_index_js_jsx_vue_cacheDirectory_true_node_modules_vue_loader_lib_selector_type_script_index_0_App_vue__["a" /* default */],
   __WEBPACK_IMPORTED_MODULE_1__node_modules_vue_loader_lib_template_compiler_index_id_data_v_652e1d43_hasScoped_false_buble_transforms_node_modules_vue_loader_lib_selector_type_template_index_0_App_vue__["a" /* default */],
   __vue_template_functional__,
   __vue_styles__,
@@ -68,9 +68,9 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /***/ }),
 
 /***/ 45:
-/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib?{"babelrc":false,"presets":[["/Users/stevend/coding/vue/vue-tel-input/node_modules/babel-preset-poi/index.js",{"jsx":"vue"}]],"cacheDirectory":true}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./demo/App.vue ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************/
+/*!***********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib?{"babelrc":false,"presets":[["/home/potatoman/Desktop/vue-tel-input/node_modules/babel-preset-poi/index.js",{"jsx":"vue"}]],"cacheDirectory":true}!./node_modules/vue-loader/lib/selector.js?type=script&index=0!./demo/App.vue ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************/
 /*! exports provided: default */
 /*! exports used: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -136,7 +136,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 /*! all exports used */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/stevend/coding/vue/vue-tel-input/demo/index.js */47);
+module.exports = __webpack_require__(/*! /home/potatoman/Desktop/vue-tel-input/demo/index.js */47);
 
 
 /***/ }),
@@ -207,7 +207,7 @@ module.exports = function (e) {
     }return Array.from(e);
   }var a = n(6),
       r = (n.n(a), n(7)),
-      s = n(8);t.a = { name: "vue-tel-input", props: { value: { type: String }, placeholder: { type: String, default: "Enter a phone number" }, disabledFetchingCountry: { type: Boolean, default: !1 }, disabled: { type: Boolean, default: !1 }, disabledFormatting: { type: Boolean, default: !1 }, invalidMsg: { default: "", type: String }, required: { type: Boolean, default: !1 }, defaultCountry: { type: String, default: "" }, enabledCountryCode: { type: Boolean, default: !1 }, enabledFlags: { type: Boolean, default: !0 }, preferredCountries: { type: Array, default: function _default() {
+      o = n(8);t.a = { name: "vue-tel-input", props: { value: { type: String }, placeholder: { type: String, default: "Enter a phone number" }, disabledFetchingCountry: { type: Boolean, default: !1 }, disabled: { type: Boolean, default: !1 }, disabledFormatting: { type: Boolean, default: !1 }, invalidMsg: { default: "", type: String }, required: { type: Boolean, default: !1 }, defaultCountry: { type: String, default: "" }, enabledCountryCode: { type: Boolean, default: !1 }, enabledFlags: { type: Boolean, default: !0 }, preferredCountries: { type: Array, default: function _default() {
           return [];
         } }, onlyCountries: { type: Array, default: function _default() {
           return [];
@@ -217,7 +217,7 @@ module.exports = function (e) {
           return {};
         } }, inputOptions: { type: Object, default: function _default() {
           return {};
-        } }, maxLen: { type: Number, default: 25 } }, mounted: function mounted() {
+        } }, maxLen: { type: Number, default: 25 }, changeActiveCountry: { type: String } }, mounted: function mounted() {
       this.initializeCountry(), this.inputOptions && this.inputOptions.showDialCode && this.activeCountry && (this.phone = "+" + this.activeCountry.dialCode), this.$emit("onValidate", this.response);
     }, created: function created() {
       this.value && (this.phone = this.value);
@@ -245,10 +245,14 @@ module.exports = function (e) {
         e && "prefix" !== this.mode && (this.phone = this.formattedResult), this.$emit("onValidate", this.response);
       }, value: function value() {
         this.phone = this.value;
+      }, changeActiveCountry: function changeActiveCountry(e) {
+        var t = this;this.activeCountry = this.findCountry(e) || this.filteredCountries[0], this.disabledFetchingCountry || Object(s.a)().then(function (e) {
+          t.activeCountry = t.findCountry(e) || t.activeCountry;
+        });
       } }, methods: { initializeCountry: function initializeCountry() {
         var e = this;if (this.defaultCountry) {
           var t = this.findCountry(this.defaultCountry);if (t) return void (this.activeCountry = t);
-        }this.activeCountry = this.findCountry(this.preferredCountries[0]) || this.filteredCountries[0], this.disabledFetchingCountry || Object(s.a)().then(function (t) {
+        }this.activeCountry = this.findCountry(this.preferredCountries[0]) || this.filteredCountries[0], this.disabledFetchingCountry || Object(o.a)().then(function (t) {
           e.activeCountry = e.findCountry(t) || e.activeCountry;
         });
       }, getCountries: function getCountries() {
@@ -296,9 +300,9 @@ module.exports = function (e) {
             var i = n.context.name,
                 a = "[Vue-click-outside:] provided expression " + t.expression + " is not a function, but has to be";i && (a += "Found in component " + i), console.warn(a);
           }var r = t.modifiers.bubble,
-              s = function s(n) {
+              o = function o(n) {
             (r || !e.contains(n.target) && e !== n.target) && t.value(n);
-          };e.__vueClickOutside__ = s, document.addEventListener("click", s);
+          };e.__vueClickOutside__ = o, document.addEventListener("click", o);
         }, unbind: function unbind(e, t) {
           document.removeEventListener("click", e.__vueClickOutside__), e.__vueClickOutside__ = null;
         } } } };
@@ -310,21 +314,21 @@ module.exports = function (e) {
     n(3), n(4);
   }Object.defineProperty(t, "__esModule", { value: !0 });var a = n(0),
       r = n(10),
-      s = n(5),
-      o = i,
-      u = s(a.a, r.a, !1, o, "data-v-656744fc", null);t.default = u.exports;
+      o = n(5),
+      s = i,
+      u = o(a.a, r.a, !1, s, "data-v-7d289f12", null);t.default = u.exports;
 }, function (e, t) {}, function (e, t) {}, function (e, t) {
   e.exports = function (e, t, n, i, a, r) {
-    var s,
-        o = e = e || {},
-        u = _typeof(e.default);"object" !== u && "function" !== u || (s = e, o = e.default);var l = "function" == typeof o ? o.options : o;t && (l.render = t.render, l.staticRenderFns = t.staticRenderFns, l._compiled = !0), n && (l.functional = !0), a && (l._scopeId = a);var d;if (r ? (d = function d(e) {
+    var o,
+        s = e = e || {},
+        u = _typeof(e.default);"object" !== u && "function" !== u || (o = e, s = e.default);var l = "function" == typeof s ? s.options : s;t && (l.render = t.render, l.staticRenderFns = t.staticRenderFns, l._compiled = !0), n && (l.functional = !0), a && (l._scopeId = a);var d;if (r ? (d = function d(e) {
       e = e || this.$vnode && this.$vnode.ssrContext || this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext, e || "undefined" == typeof __VUE_SSR_CONTEXT__ || (e = __VUE_SSR_CONTEXT__), i && i.call(this, e), e && e._registeredComponents && e._registeredComponents.add(r);
     }, l._ssrRegister = d) : i && (d = i), d) {
       var c = l.functional,
           h = c ? l.render : l.beforeCreate;c ? (l._injectStyles = d, l.render = function (e, t) {
         return d.call(t), h(e, t);
       }) : l.beforeCreate = h ? [].concat(h, d) : [d];
-    }return { esModule: s, exports: o, options: l };
+    }return { esModule: o, exports: s, options: l };
   };
 }, function (e, t) {
   e.exports = __webpack_require__(/*! libphonenumber-js */ 51);

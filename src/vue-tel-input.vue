@@ -228,6 +228,9 @@ export default {
       type: Number,
       default: 25,
     },
+    changeActiveCountry:{
+      type:String
+    }
   },
   mounted() {
     this.initializeCountry();
@@ -341,6 +344,12 @@ export default {
     value() {
       this.phone = this.value;
     },
+    changeActiveCountry: function (country) {
+        var e = this
+        this.activeCountry = this.findCountry(country) || this.filteredCountries[0], this.disabledFetchingCountry || Object(s.a)().then(function (t) {
+            e.activeCountry = e.findCountry(t) || e.activeCountry
+        })
+    }
   },
   methods: {
     initializeCountry() {
